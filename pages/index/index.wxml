@@ -1,0 +1,10 @@
+<view class="page" style="background:#272727;width:{{ SystemWidth }}px;height:{{ SystemHeight }}px;">
+
+<view class="page__hd">
+    <view class="page__title">我的理财日记</view>
+    <view class="page__desc">面板</view>
+</view>
+
+<canvas canvas-id="myCanvas" disable-scroll="true" bindtouchmove="touchMove" style="width:{{ SystemWidth }}px;height:400px;" />
+
+</view>
